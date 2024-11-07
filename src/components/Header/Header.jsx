@@ -6,11 +6,16 @@ const Header = () => {
 
     return (
 
-        <div className="Header">
-           
-           TRN AUTO 57
-            
-            
+        <div class="Header">
+        <h4>TRN 57</h4>
+        <div class="dropdown">
+        <button onclick="dropDownOpen()" class="profile"></button>
+        <div id="myDropdown" class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        </div>
+        </div>
         </div>
     );
 }
